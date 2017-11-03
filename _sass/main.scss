@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:700|Ovo');
+
 body {
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: consolas, monaco, courier, "courier new", fixed-width;
+  font-family: 'Ovo', serif;
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -13,10 +15,13 @@ body {
     padding: 35px 50px;
   }
 }
+h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
+  font-family: 'Karla', sans-serif;
   margin: 45px 0 25px;
 }
 img {
@@ -271,6 +276,7 @@ article {
   max-width: 500px;
   margin: 0 auto;
   font-size: 0.8rem;
+  font-family: Karla, sans-serif;
 }
 .page-navigation {
   margin: 50px auto 0 auto;
@@ -322,6 +328,7 @@ section {
         color: #757575;
         letter-spacing: 1px;
         text-transform: uppercase;
+        font-family: Karla, sans-serif;
       }
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;
